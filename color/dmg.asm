@@ -87,7 +87,7 @@ Code_d000:
 	pop af
 	ld hl, rSTAT
 .frameWait
-	bit 2, [hl]
+	bit 5, [hl]
 	jr z, .frameWait
 	jr Code_d000
 Code_d000_end:

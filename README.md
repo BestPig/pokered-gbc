@@ -2,11 +2,10 @@
 
 This is a disassembly of Pokémon Red and Blue.
 
-It builds the following ROMs:
+It builds the following ROMs for Analogue Pocket GB Studio mode:
 
-- Pokemon Red (UE) [S][!].gb `sha1: ea9bcae617fdf159b045185467ae58b2e4a48b9a`
-- Pokemon Blue (UE) [S][!].gb `sha1: d7037c83e1ae5b39bde3c30787637ba1d4c48ce2`
-- BLUEMONS.GB (debug build) `sha1: 5b1456177671b79b263c614ea0e7cc9ac542e9c4`
+- Pokemon Red (UE) [S][!].pocket `sha1: 47b7a498604688f313d27646e45f9a5dfa1ab032`
+- Pokemon Blue (UE) [S][!].pocket `sha1: 862212292612cd8ca812e0381cd4c8ef20e471e9`
 
 To set up the repository, see [**INSTALL.md**](INSTALL.md).
 

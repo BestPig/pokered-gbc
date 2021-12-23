@@ -32,7 +32,7 @@ SetPalRet:
 
 WaitForVBlank:
 	ldh a, [rSTAT]
-	and a, 3
+	and a, $c0
 	dec a
 	jr nz, WaitForVBlank
  	ret
@@ -369,7 +369,7 @@ CopyGfxToSuperNintendoVRAM:
 	add hl, de
 	dec c
 	jr nz, .loop
-	ld a, $e3
+	ld a, $c7
 	ldh [rLCDC], a
 	pop hl
 	call SendSGBPacket

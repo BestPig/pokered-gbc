@@ -276,7 +276,7 @@ GbcVBlankHook::
 	ld a, $6e
 	ldh [rLYC], a
 	ldh a, [rSTAT]
-	or $40
+	or $02
 	ldh [rSTAT], a
 
 	ld a, 2

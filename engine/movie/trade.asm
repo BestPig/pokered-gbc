@@ -226,7 +226,7 @@ Trade_ShowPlayerMon:
 	ld b, SET_PAL_POKEMON_WHOLE_SCREEN
 	ld c, 2
 	call Trade_LoadCablePalettes ; Ignores values of b, c
-	ld a, %10101011
+	ld a, %11010101
 	ldh [rLCDC], a
 	ld a, $50
 	ldh [hWY], a
@@ -285,7 +285,7 @@ Trade_DrawOpenEndOfLinkCable:
 	ld a, $a0
 	ldh [hSCX], a
 	call DelayFrame
-	ld a, %10001011
+	ld a, %11010001
 	ldh [rLCDC], a
 	hlcoord 6, 2
 	ld b, TILEMAP_LINK_CABLE
@@ -456,7 +456,7 @@ Trade_InitGameboyTransferGfx:
 	ldh [hAutoBGTransferEnabled], a
 	call Trade_LoadMonPartySpriteGfx
 	call DelayFrame
-	ld a, %10101011
+	ld a, %11010101
 	ldh [rLCDC], a
 	xor a
 	ldh [hSCX], a
@@ -753,7 +753,7 @@ Trade_ShowClearedWindow:
 	ld a, $1
 	ldh [hAutoBGTransferEnabled], a
 	call ClearScreen
-	ld a, %11100011
+	ld a, %11000111
 	ldh [rLCDC], a
 	ld a, $7
 	ldh [rWX], a

@@ -9,6 +9,7 @@
 # compiled roms
 *.gbc
 *.gb
+*.pocket
 
 # rgbds extras
 *.map
